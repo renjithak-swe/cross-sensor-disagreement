@@ -1,0 +1,44 @@
+[catalog]
+endpoint = "https://planetarycomputer.microsoft.com/api/stac/v1"
+sentinel2_collection = "sentinel-2-l2a"
+landsat_collection = "landsat-c2-l2"
+hls_sentinel2_collection = "hls2-s30"
+hls_landsat_collection = "hls2-l30"
+landcover_collection = "esa-worldcover"
+landcover_item_id = "ESA_WorldCover_10m_2021_v200_N12E075"
+
+[aoi]
+path = "../data/aoi/east_bengaluru.geojson"
+
+[period]
+start = "2023-01-01"
+end = "2025-12-31"
+
+[eligibility]
+sentinel2_platforms = ["Sentinel-2A", "Sentinel-2B", "Sentinel-2C"]
+landsat_platforms = ["landsat-8", "landsat-9"]
+landsat_collection_categories = ["T1"]
+max_scene_cloud_cover_percent = 70.0
+max_time_difference_hours = 72.0
+min_valid_overlap_fraction = 0.25
+
+[grid]
+crs = "EPSG:32643"
+resolution_m = 30.0
+landsat_origin_offset_m = 15.0
+mgrs_origin_offset_m = 0.0
+subcell_m = 5.0
+
+[quality]
+sentinel2_valid_scl_classes = [4, 5, 6]
+landsat_invalid_qa_bits = [0, 1, 2, 3, 4, 5]
+landsat_saturation_bits = [3, 4]
+hls_invalid_fmask_bits = [1, 2, 3, 4]
+hls_mask_high_aerosol = false
+
+[landcover]
+min_purity = 0.75
+
+[uncertainty]
+bootstrap_iterations = 2000
+random_seed = 20261125

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="216pt" viewBox="0 0 547.2 216" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 216 
+L 547.2 216 
+L 547.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 9.8496 203.904 
+L 97.4016 203.904 
+Q 102.8736 203.904 102.8736 201.744 
+L 102.8736 61.776 
+Q 102.8736 59.616 97.4016 59.616 
+L 9.8496 59.616 
+Q 4.3776 59.616 4.3776 61.776 
+L 4.3776 201.744 
+Q 4.3776 203.904 9.8496 203.904 
+z
+" style="fill: #ffffff; stroke: #1d231f; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 102.686702 131.76 
+Q 108.073541 131.76 112.118738 131.76 
+" style="fill: none; stroke: #4b5650; stroke-width: 1.2; stroke-linecap: round"/>
+   <path d="M 108.518738 129.96 
+L 112.118738 131.76 
+L 108.518738 133.56 
+z
+" style="fill: #4b5650; stroke: #4b5650; stroke-width: 1.2; stroke-linecap: round"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 118.7424 203.904 
+L 206.2944 203.904 
+Q 211.7664 203.904 211.7664 201.744 
+L 211.7664 61.776 
+Q 211.7664 59.616 206.2944 59.616 
+L 118.7424 59.616 
+Q 113.2704 59.616 113.2704 61.776 
+L 113.2704 201.744 
+Q 113.2704 203.904 118.7424 203.904 
+z
+" style="fill: #ffffff; stroke: #1d231f; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 211.579502 131.76 
+Q 216.966341 131.76 221.011538 131.76 
+" style="fill: none; stroke: #4b5650; stroke-width: 1.2; stroke-linecap: round"/>
+   <path d="M 217.411538 129.96 
+L 221.011538 131.76 
+L 217.411538 133.56 
+z
+" style="fill: #4b5650; stroke: #4b5650; stroke-width: 1.2; stroke-linecap: round"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 227.6352 203.904 
+L 315.1872 203.904 
+Q 320.6592 203.904 320.6592 201.744 
+L 320.6592 61.776 
+Q 320.6592 59.616 315.1872 59.616 
+L 227.6352 59.616 
+Q 222.1632 59.616 222.1632 61.776 
+L 222.1632 201.744 
+Q 222.1632 203.904 227.6352 203.904 
+z
+" style="fill: #ffffff; stroke: #1d231f; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_7">
+   <path d="M 320.472302 131.76 
+Q 325.859141 131.76 329.904338 131.76 
+" style="fill: none; stroke: #4b5650; stroke-width: 1.2; stroke-linecap: round"/>
+   <path d="M 326.304338 129.96 
+L 329.904338 131.76 
+L 326.304338 133.56 
+z
+" style="fill: #4b5650; stroke: #4b5650; stroke-width: 1.2; stroke-linecap: round"/>
+  </g>
+  <g id="patch_8">
+   <path d="M 336.528 203.904 
+L 424.08 203.904 
+Q 429.552 203.904 429.552 201.744 
+L 429.552 61.776 
+Q 429.552 59.616 424.08 59.616 
+L 336.528 59.616 
+Q 331.056 59.616 331.056 61.776 
+L 331.056 201.744 
+Q 331.056 203.904 336.528 203.904 
+z
+" style="fill: #e4eedd; stroke: #1d231f; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_9">
+   <path d="M 429.365102 131.76 
+Q 434.751941 131.76 438.797138 131.76 
+" style="fill: none; stroke: #4b5650; stroke-width: 1.2; stroke-linecap: round"/>
+   <path d="M 435.197138 129.96 
+L 438.797138 131.76 
+L 435.197138 133.56 
+z
+" style="fill: #4b5650; stroke: #4b5650; stroke-width: 1.2; stroke-linecap: round"/>
+  </g>
+  <g id="patch_10">
+   <path d="M 445.4208 203.904 
+L 532.9728 203.904 
+Q 538.4448 203.904 538.4448 201.744 
+L 538.4448 61.776 
+Q 538.4448 59.616 532.9728 59.616 
+L 445.4208 59.616 
+Q 439.9488 59.616 439.9488 61.776 
+L 439.9488 201.744 
+Q 439.9488 203.904 445.4208 203.904 
+z
+" style="fill: #ffffff; stroke: #1d231f; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 11.5px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d231f" x="10.944" y="15.439597" transform="rotate(-0 10.944 15.439597)">The experiment as a pipeline</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 8.5px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #4b5650" x="10.944" y="31.811333" transform="rotate(-0 10.944 31.811333)">Each stage writes its decisions to disk</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 9.5px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d231f" x="13.1328" y="78.289219" transform="rotate(-0 13.1328 78.289219)">Discover</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(13.1328 105.182148)">STAC search:</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(13.1328 114.848945)">S2 L2A, Landsat</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(13.1328 124.870742)">C2 L2, HLS v2.0,</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(13.1328 135.588789)">WorldCover</text>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 700; font-size: 9.5px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d231f" x="122.0256" y="78.312969" transform="rotate(-0 122.0256 78.312969)">Select</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(122.0256 105.224648)">Reason code for</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(122.0256 114.38582)">every rejection;</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(122.0256 125.453242)">nearest S2 within</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(122.0256 135.631289)">72 h of Landsat</text>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 9.5px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d231f" x="230.9184" y="78.312969" transform="rotate(-0 230.9184 78.312969)">Mask</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(230.9184 104.535273)">SCL, QA_PIXEL,</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(230.9184 114.811445)">saturation; one</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(230.9184 125.495742)">shared set of</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(230.9184 135.586914)">valid 30 m cells</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 9.5px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d231f" x="339.8112" y="78.19626" transform="rotate(-0 339.8112 78.19626)">Compare</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(339.8112 105.084023)">A → C1 → D1</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(339.8112 114.75082)">→ E1 → E2;</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(339.8112 125.453242)">side branches</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(339.8112 135.588789)">C2–C4 and F</text>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 9.5px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d231f" x="448.704" y="78.312969" transform="rotate(-0 448.704 78.312969)">Evidence</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(448.704 104.271523)">Metrics, pair</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(448.704 114.48707)">bootstrap, manifest</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(448.704 125.453242)">with item IDs</text>
+   <text style="font-size: 8px; font-family: 'Overpass', 'Segoe UI', 'DejaVu Sans', sans-serif; fill: #4b5650" transform="translate(448.704 135.586914)">and SHA-256</text>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.cache/
+run.log
+demo-output/
+results/rasters/

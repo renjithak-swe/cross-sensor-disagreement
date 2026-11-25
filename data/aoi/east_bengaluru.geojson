@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Bengaluru (Whitefield, Varthur, Gunjur)",
+        "crs": "EPSG:4326"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.60, 12.88],
+            [77.78, 12.88],
+            [77.78, 13.02],
+            [77.60, 13.02],
+            [77.60, 12.88]
+          ]
+        ]
+      }
+    }
+  ]
+}
