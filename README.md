@@ -31,7 +31,7 @@ NDVI disagreement, Sentinel-2 minus Landsat.
 
 | Step | NDVI MAE | NDVI bias | NIR bias | Pearson r |
 |---|---|---|---|---|
-| A native pixels | 0.097 (0.093–0.102) | −0.037 | +0.022 | 0.859 |
+| A native pixels | 0.097 (0.093–0.102) | −0.036 | +0.022 | 0.859 |
 | C1 common 30 m grid | 0.062 (0.058–0.066) | −0.041 | +0.022 | 0.955 |
 | D0 B08 at 20 m support | 0.061 (0.057–0.066) | −0.040 | +0.022 | 0.955 |
 | D1 B8A at 20 m support | 0.052 (0.048–0.055) | −0.022 | +0.034 | 0.958 |

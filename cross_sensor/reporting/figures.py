@@ -550,6 +550,34 @@ def _pair_info(results: Path, pair_id: str) -> dict[str, Any]:
     return {"dates": dates}
 
 
+def figure_hero(directory: Path, summary: dict[str, Any]) -> list[Path]:
+    """One compact chart for the portfolio home page: NDVI bias at each ladder step, same pairs and pixels."""
+    plt = _matplotlib()
+    steps = summary["ladder"]["steps"]
+    short = {"A_native": "Native pixels", "C1_area_weighted": "Common grid", "D0_broad_nir_20m_support": "B08 at 20 m",
+             "D1_narrow_nir": "B8A band", "E1_narrow_nir_view_angle": "View angle", "E2_narrow_nir_view_angle_bandpass": "Bandpass"}
+    values = np.array([_number(step["ndvi"]["mean_bias"]["estimate"]) for step in steps])
+    lower = np.array([_number(step["ndvi"]["mean_bias"]["ci_lower"]) for step in steps])
+    upper = np.array([_number(step["ndvi"]["mean_bias"]["ci_upper"]) for step in steps])
+    fig = plt.figure(figsize=(3.6, 3.8), dpi=DPI)
+    ax = fig.add_axes([0.34, 0.15, 0.6, 0.62])
+    _heading(fig, "Same ground, different NDVI", f"Sentinel-2 minus Landsat · {len(summary['ladder']['pairs'])} pairs, east Bengaluru", True)
+    positions = np.arange(len(steps))[::-1]
+    ax.errorbar(values, positions, xerr=_error_extent(values, lower, upper), fmt="o", color=AFTER, ecolor=AFTER, elinewidth=1.5, markersize=6, markeredgecolor=SURFACE)
+    for value, position in zip(values, positions, strict=True):
+        ax.text(value, position + 0.32, f"{value:+.3f}", ha="center", fontsize=7.5, color=INK)
+    ax.axvline(0, color=INK_MUTED, linewidth=0.8)
+    ax.set_yticks(positions, [short.get(step["condition"], step["condition"]) for step in steps], fontsize=8)
+    extremes = np.concatenate([values, lower, upper])
+    ax.set_xlim(min(np.nanmin(extremes) * 1.15, -0.004), max(np.nanmax(extremes), 0.0) + 0.004)
+    ax.set_ylim(-0.6, len(steps) - 0.3)
+    ax.set_xlabel("NDVI mean bias (0 = agree)", fontsize=8)
+    ax.tick_params(axis="x", labelsize=7.5)
+    _style_axes(ax)
+    ax.grid(axis="y", visible=False)
+    return [_save(fig, directory / "hero-ndvi-bias.svg")]
+
+
 def render_all_figures(results: Path, summary: dict[str, Any], example_pair: str | None) -> list[Path]:
     directory = results / "figures"
     directory.mkdir(parents=True, exist_ok=True)
@@ -578,6 +606,8 @@ def render_all_figures(results: Path, summary: dict[str, Any], example_pair: str
     if summary["landcover_breakdown"]["C1_area_weighted"]["classes"]:
         paths += figure_landcover_breakdown(directory, summary)
     paths += figure_pipeline(directory)
+    if summary["ladder"]["pairs"]:
+        paths += figure_hero(directory, summary)
     return paths
 
 

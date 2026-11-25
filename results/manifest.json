@@ -2112,6 +2112,56 @@
   ],
   "outputs": [
     {
+      "path": "footprints.geoparquet",
+      "sha256": "939bb794cc0c8e714b5d0b2d4e44f30527a252ddf17b5b7bc4509f9c17213dc8",
+      "size_bytes": 73713
+    },
+    {
+      "path": "observations.parquet",
+      "sha256": "c3b0210a098df2eece4262bd526f92cf71b72f25051413e31ca2ba5398baec9e",
+      "size_bytes": 29064
+    },
+    {
+      "path": "pair_metrics.parquet",
+      "sha256": "d5777f3923f06b64f9ef3b730d14dead018a5776358f6b63e4ac43a0f0761cee",
+      "size_bytes": 887246
+    },
+    {
+      "path": "pairs.parquet",
+      "sha256": "849bff18aa007e7fb7e3ac2edb819b0cb85391f40239fc7ef2bac859c299646d",
+      "size_bytes": 83995
+    },
+    {
+      "path": "rasters/example_P073_common_grid_ndvi.tif",
+      "sha256": "53e323bba6d55abb33ffc256816ace49165d29d99e7db30338bd169269e6be66",
+      "size_bytes": 8464959
+    },
+    {
+      "path": "rasters/example_P073_landsat_native_ndvi.tif",
+      "sha256": "4aa8b5c6367ed3be842c72b2af77e81962f7328ef1f2c3a7b5034de2ff3cf1d7",
+      "size_bytes": 1428088
+    },
+    {
+      "path": "rasters/example_P073_sentinel2_native_ndvi.tif",
+      "sha256": "b446b675ece628d95a52fee0a811635e4e14c3c4409205fcd0cba668c37f8a37",
+      "size_bytes": 13912302
+    },
+    {
+      "path": "rasters/landcover_landsat_grid.tif",
+      "sha256": "9a29ece0172bf237539792c1f2f96453079f2c5a7a226e1900a6879d196b964c",
+      "size_bytes": 1878987
+    },
+    {
+      "path": "residual_histograms.parquet",
+      "sha256": "13f84cb68c17b7011c971fb4d7eba694205523e10b75c3529fff0f1d9f1cded7",
+      "size_bytes": 739738
+    },
+    {
+      "path": "summary.json",
+      "sha256": "d84bb4681f131559e0d5a24e7f653478076709e6095b634ddfa0ebcde9a1a74d",
+      "size_bytes": 152968
+    },
+    {
       "path": "figures/fig01-aoi-landcover-narrow.svg",
       "sha256": "25f341bb3ff4a4e0c7190d5e334537b22b9d45018d9a021ceb88e3ca0eeb1e2a",
       "size_bytes": 68176
@@ -2222,54 +2272,9 @@
       "size_bytes": 9860
     },
     {
-      "path": "footprints.geoparquet",
-      "sha256": "939bb794cc0c8e714b5d0b2d4e44f30527a252ddf17b5b7bc4509f9c17213dc8",
-      "size_bytes": 73713
-    },
-    {
-      "path": "observations.parquet",
-      "sha256": "c3b0210a098df2eece4262bd526f92cf71b72f25051413e31ca2ba5398baec9e",
-      "size_bytes": 29064
-    },
-    {
-      "path": "pair_metrics.parquet",
-      "sha256": "d5777f3923f06b64f9ef3b730d14dead018a5776358f6b63e4ac43a0f0761cee",
-      "size_bytes": 887246
-    },
-    {
-      "path": "pairs.parquet",
-      "sha256": "849bff18aa007e7fb7e3ac2edb819b0cb85391f40239fc7ef2bac859c299646d",
-      "size_bytes": 83995
-    },
-    {
-      "path": "rasters/example_P073_common_grid_ndvi.tif",
-      "sha256": "53e323bba6d55abb33ffc256816ace49165d29d99e7db30338bd169269e6be66",
-      "size_bytes": 8464959
-    },
-    {
-      "path": "rasters/example_P073_landsat_native_ndvi.tif",
-      "sha256": "4aa8b5c6367ed3be842c72b2af77e81962f7328ef1f2c3a7b5034de2ff3cf1d7",
-      "size_bytes": 1428088
-    },
-    {
-      "path": "rasters/example_P073_sentinel2_native_ndvi.tif",
-      "sha256": "b446b675ece628d95a52fee0a811635e4e14c3c4409205fcd0cba668c37f8a37",
-      "size_bytes": 13912302
-    },
-    {
-      "path": "rasters/landcover_landsat_grid.tif",
-      "sha256": "9a29ece0172bf237539792c1f2f96453079f2c5a7a226e1900a6879d196b964c",
-      "size_bytes": 1878987
-    },
-    {
-      "path": "residual_histograms.parquet",
-      "sha256": "13f84cb68c17b7011c971fb4d7eba694205523e10b75c3529fff0f1d9f1cded7",
-      "size_bytes": 739738
-    },
-    {
-      "path": "summary.json",
-      "sha256": "d84bb4681f131559e0d5a24e7f653478076709e6095b634ddfa0ebcde9a1a74d",
-      "size_bytes": 152968
+      "path": "figures/hero-ndvi-bias.svg",
+      "sha256": "f67e56c78f7b53d06cc854fa49196357d429234e991eae15012b4a826311c4a3",
+      "size_bytes": 13782
     }
   ],
   "manifest_version": 1
